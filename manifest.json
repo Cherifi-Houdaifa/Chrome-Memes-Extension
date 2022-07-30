@@ -1,0 +1,22 @@
+{
+	"name": "Not Meme",
+	"description": "Get memes from Reddit.",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": [
+		"storage"
+	],
+    "options_page": "options.html",
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"128": "/assets/icon-1.png"
+		}
+	},
+    "icons": {
+      "128": "/assets/icon-1.png"
+    }
+}
